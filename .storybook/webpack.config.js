@@ -6,5 +6,13 @@ module.exports = (storybookBaseConfig, configType) => {
     angular: require.resolve("angular")
   };
 
+  storybookBaseConfig.module.rules.push({
+    test: /\.(css)$/,
+    use: [
+      "style-loader",
+      "css-loader"
+    ]
+  });
+
   return storybookBaseConfig;
 };
