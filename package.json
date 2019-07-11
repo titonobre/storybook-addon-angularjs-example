@@ -19,12 +19,12 @@
     "angular": "1.7.8"
   },
   "devDependencies": {
-    "@babel/core": "7.4.4",
-    "@babel/runtime": "7.4.4",
+    "@babel/core": "7.5.4",
+    "@babel/runtime": "7.5.4",
     "@storybook/addon-actions": "4.1.18",
     "@storybook/addon-knobs": "4.1.18",
     "@storybook/html": "4.1.18",
-    "babel-loader": "8.0.5",
+    "babel-loader": "8.0.6",
     "moment": "2.24.0",
     "storybook-addon-angularjs": "0.0.2"
   }
